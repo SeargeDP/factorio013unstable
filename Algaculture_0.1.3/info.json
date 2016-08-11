@@ -1,0 +1,8 @@
+{
+  "name": "Algaculture",
+  "version": "0.1.3",
+  "title": "Algaculture",
+  "author": "Fortanono",
+  "description": "Adds an algae processing system as a new way of creating solid fuel.",
+  "factorio_version": "0.13"
+}

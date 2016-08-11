@@ -1,0 +1,284 @@
+{
+    "mods": [
+        {
+            "name": "base",
+            "enabled": "true"
+        },
+        {
+            "name": "Algaculture",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsinfiniteores",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsprocessing",
+            "enabled": "true"
+        },
+        {
+            "name": "angelsrefining",
+            "enabled": "true"
+        },
+        {
+            "name": "Avatars",
+            "enabled": "true"
+        },
+        {
+            "name": "barrels",
+            "enabled": "true"
+        },
+        {
+            "name": "beltSorter",
+            "enabled": "true"
+        },
+        {
+            "name": "BetterFluidColors",
+            "enabled": "true"
+        },
+        {
+            "name": "BigBags",
+            "enabled": "true"
+        },
+        {
+            "name": "Big_Brother",
+            "enabled": "true"
+        },
+        {
+            "name": "Bio_Industries",
+            "enabled": "true"
+        },
+        {
+            "name": "bobassembly",
+            "enabled": "true"
+        },
+        {
+            "name": "bobconfig",
+            "enabled": "true"
+        },
+        {
+            "name": "bobelectronics",
+            "enabled": "true"
+        },
+        {
+            "name": "bobenemies",
+            "enabled": "true"
+        },
+        {
+            "name": "bobgreenhouse",
+            "enabled": "true"
+        },
+        {
+            "name": "bobinserters",
+            "enabled": "true"
+        },
+        {
+            "name": "boblibrary",
+            "enabled": "true"
+        },
+        {
+            "name": "boblogistics",
+            "enabled": "true"
+        },
+        {
+            "name": "bobmining",
+            "enabled": "true"
+        },
+        {
+            "name": "bobmodules",
+            "enabled": "true"
+        },
+        {
+            "name": "bobores",
+            "enabled": "true"
+        },
+        {
+            "name": "bobplates",
+            "enabled": "true"
+        },
+        {
+            "name": "bobpower",
+            "enabled": "true"
+        },
+        {
+            "name": "bobrevamp",
+            "enabled": "true"
+        },
+        {
+            "name": "bobtech",
+            "enabled": "true"
+        },
+        {
+            "name": "bobtechsave",
+            "enabled": "true"
+        },
+        {
+            "name": "bobwarfare",
+            "enabled": "true"
+        },
+        {
+            "name": "CMHMod",
+            "enabled": "true"
+        },
+        {
+            "name": "color-coding",
+            "enabled": "true"
+        },
+        {
+            "name": "DeathChest",
+            "enabled": "true"
+        },
+        {
+            "name": "DistancePlus",
+            "enabled": "true"
+        },
+        {
+            "name": "DrillingPumpjack",
+            "enabled": "true"
+        },
+        {
+            "name": "EvoGUI",
+            "enabled": "true"
+        },
+        {
+            "name": "Extra-Virtual-Signals",
+            "enabled": "true"
+        },
+        {
+            "name": "Factorissimo",
+            "enabled": "true"
+        },
+        {
+            "name": "Flow Control",
+            "enabled": "true"
+        },
+        {
+            "name": "Force Fields",
+            "enabled": "true"
+        },
+        {
+            "name": "homeworld",
+            "enabled": "true"
+        },
+        {
+            "name": "KS_Power",
+            "enabled": "true"
+        },
+        {
+            "name": "manual-inventory-sort",
+            "enabled": "true"
+        },
+        {
+            "name": "More signal color",
+            "enabled": "true"
+        },
+        {
+            "name": "More_Floors",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Buildings",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Enemies",
+            "enabled": "true"
+        },
+        {
+            "name": "Natural_Evolution_Expansion",
+            "enabled": "true"
+        },
+        {
+            "name": "nixie-tubes",
+            "enabled": "true"
+        },
+        {
+            "name": "OverMods",
+            "enabled": "true"
+        },
+        {
+            "name": "Personal_Spawns",
+            "enabled": "true"
+        },
+        {
+            "name": "player-color",
+            "enabled": "true"
+        },
+        {
+            "name": "pollution-detector",
+            "enabled": "true"
+        },
+        {
+            "name": "radarplus for rso",
+            "enabled": "true"
+        },
+        {
+            "name": "RailTanker",
+            "enabled": "true"
+        },
+        {
+            "name": "rso-mod",
+            "enabled": "true"
+        },
+        {
+            "name": "SatelliteRadar",
+            "enabled": "true"
+        },
+        {
+            "name": "Satellite Uplink Station",
+            "enabled": "true"
+        },
+        {
+            "name": "ShuttleTrain",
+            "enabled": "true"
+        },
+        {
+            "name": "Signposts",
+            "enabled": "true"
+        },
+        {
+            "name": "SmartSplitters",
+            "enabled": "true"
+        },
+        {
+            "name": "SpaceMod",
+            "enabled": "true"
+        },
+        {
+            "name": "Squeak Through",
+            "enabled": "true"
+        },
+        {
+            "name": "Surfaces",
+            "enabled": "true"
+        },
+        {
+            "name": "tree_collision",
+            "enabled": "true"
+        },
+        {
+            "name": "UraniumPower",
+            "enabled": "true"
+        },
+        {
+            "name": "VersepellesDeepQuarry",
+            "enabled": "true"
+        },
+        {
+            "name": "VersepellesHardStorage",
+            "enabled": "true"
+        },
+        {
+            "name": "Warehousing",
+            "enabled": "true"
+        },
+        {
+            "name": "WaterWell",
+            "enabled": "true"
+        },
+        {
+            "name": "ZCS-Trash-Landfill",
+            "enabled": "true"
+        }
+    ]
+}
