@@ -277,7 +277,15 @@
             "enabled": "true"
         },
         {
+            "name": "Wireless Networks",
+            "enabled": "true"
+        },
+        {
             "name": "ZCS-Trash-Landfill",
+            "enabled": "true"
+        },
+        {
+            "name": "ZGroupChange",
             "enabled": "true"
         }
     ]
