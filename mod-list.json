@@ -9,6 +9,10 @@
             "enabled": "true"
         },
         {
+            "name": "angelsaddons-oresilos",
+            "enabled": "true"
+        },
+        {
             "name": "angelsinfiniteores",
             "enabled": "true"
         },
@@ -122,6 +126,14 @@
         },
         {
             "name": "color-coding",
+            "enabled": "true"
+        },
+        {
+            "name": "color-picker",
+            "enabled": "true"
+        },
+        {
+            "name": "creative-mode",
             "enabled": "true"
         },
         {
