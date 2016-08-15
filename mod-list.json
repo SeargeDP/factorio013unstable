@@ -9,10 +9,6 @@
             "enabled": "true"
         },
         {
-            "name": "angelsaddons-oresilos",
-            "enabled": "true"
-        },
-        {
             "name": "angelsinfiniteores",
             "enabled": "true"
         },
@@ -129,14 +125,6 @@
             "enabled": "true"
         },
         {
-            "name": "color-picker",
-            "enabled": "true"
-        },
-        {
-            "name": "creative-mode",
-            "enabled": "true"
-        },
-        {
             "name": "DeathChest",
             "enabled": "true"
         },
@@ -166,6 +154,10 @@
         },
         {
             "name": "Force Fields",
+            "enabled": "true"
+        },
+        {
+            "name": "hacked-splitters",
             "enabled": "true"
         },
         {
@@ -210,10 +202,6 @@
         },
         {
             "name": "Personal_Spawns",
-            "enabled": "true"
-        },
-        {
-            "name": "player-color",
             "enabled": "true"
         },
         {
