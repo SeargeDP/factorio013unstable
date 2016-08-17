@@ -85,9 +85,10 @@ function dumpvar(data, depth, sortdepth)
                 buffer = buffer.."<"..str..">\n"
             else
                 tablecache[str] = (tablecache[str] or 0) + 1
-                buffer = buffer..string.format(" {%s-- <%s>\n",padder,str)
 				
 				if _depth >= depth then buffer = buffer.."\n"; return end
+				buffer = buffer..string.format(" {%s-- <%s>\n",padder,str)
+				
 				if _depth <= sortdepth then
 					for k, v in pairsByKeys(d) do
 						buffer = buffer..string.rep(padder, _depth+1).."["..k.."]"
@@ -706,27 +707,37 @@ end
 
 function zgc.get_main_group(name)
 	local name = string.sub(string.match(name,"-%w*"),2) or name
-	for k,_ in pairs(data.raw["item-group"]) do
-		if string.find(k,name) and string.sub(k,1,4) == "zgc-" then return k end
+	
+	local _name = name
+	if string.find(name,"trains") or string.find(name,"vehicles") then 
+		name = string.gsub(name,"(trains)(vehicles)", "trains-vehicles")
 	end
+	
+	for k,_ in pairs(data.raw["item-group"]) do
+		if string.find(k,_name) and string.sub(k,1,4) == "zgc-" then return k end
+	end
+	
+	return name
 end
 
 function zgc.get_group_name(name)
 	
 	if data.raw["item-subgroup"][name] then return name end
 	
-	local _name = "zgc-"..string.sub(name,3)
+	local _name = "zgc-"..name
 	if data.raw["item-subgroup"][_name] then return _name end
 	
 	
-	local order = string.sub(name,string.find(name, "-", 5)+1)
-	if tonumber(order) < 10 then order = '0'..order end
+	local order = string.sub(name,string.find(name, "-", 3)+1)
+	if tonumber(order) then
+		if tonumber(order) < 10 then order = '0'..order end
+	else 
+		log("[get_group_name] tonumber(%s) = %s",name,order or "nil")
+		order = name
+	end
+	
 	if string.find(name, "trains") then order = "t "..order end
 	if string.find(name, "vehicles") then order = "v "..order end
-	
-	if string.find(_name,"trains") or string.find(_name,"vehicles") then 
-		_name = string.gsub(_name,"(trains)(vehicles)", "trains-vehicles")
-	end
 	
 	local main_group = zgc.get_main_group(_name)
 	
@@ -737,6 +748,14 @@ log("ADD NEW SUB GROUP [%s] for %s",_name,main_group)
 			name = _name,
 			group = main_group,
 			order = order
+		}
+	else
+log("ADD UNKNOWN SUB GROUP [%s] to OTHER",_name)
+		data.raw["item-subgroup"][_name] = {
+			type = "item-subgroup",
+			name = _name,
+			group = "zgc-other",
+			order = _name
 		}
 	end
 	
